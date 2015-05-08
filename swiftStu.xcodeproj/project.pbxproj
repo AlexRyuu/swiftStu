@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C248A28B1AD6C1CE00F275E0 /* VarTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C248A28A1AD6C1CE00F275E0 /* VarTest.swift */; };
+		C248A28D1AD6C52000F275E0 /* ControlTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C248A28C1AD6C52000F275E0 /* ControlTest.swift */; };
 		C24923A71AD0DABA00DF08AA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24923A61AD0DABA00DF08AA /* main.swift */; };
+		C2B83E561AD2D8FE0098F62B /* FuncTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B83E551AD2D8FE0098F62B /* FuncTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C248A28A1AD6C1CE00F275E0 /* VarTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VarTest.swift; sourceTree = "<group>"; };
+		C248A28C1AD6C52000F275E0 /* ControlTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlTest.swift; sourceTree = "<group>"; };
 		C24923A31AD0DABA00DF08AA /* swiftStu */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swiftStu; sourceTree = BUILT_PRODUCTS_DIR; };
 		C24923A61AD0DABA00DF08AA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C2B83E551AD2D8FE0098F62B /* FuncTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuncTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				C24923A61AD0DABA00DF08AA /* main.swift */,
+				C2B83E551AD2D8FE0098F62B /* FuncTest.swift */,
+				C248A28A1AD6C1CE00F275E0 /* VarTest.swift */,
+				C248A28C1AD6C52000F275E0 /* ControlTest.swift */,
 			);
 			path = swiftStu;
 			sourceTree = "<group>";
@@ -119,6 +128,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C24923A71AD0DABA00DF08AA /* main.swift in Sources */,
+				C248A28D1AD6C52000F275E0 /* ControlTest.swift in Sources */,
+				C2B83E561AD2D8FE0098F62B /* FuncTest.swift in Sources */,
+				C248A28B1AD6C1CE00F275E0 /* VarTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +245,7 @@
 				C24923AC1AD0DABA00DF08AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
